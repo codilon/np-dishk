@@ -1,0 +1,113 @@
+
+.ui.menu .item {
+	font-weight: bold;
+	font-size: 18px;
+}
+.underline{
+	height: 5px;
+	width: 40px;
+	background-color: green;
+	
+}
+.large::first-letter{
+	font-size: 25px;
+	font-weight: bold;
+	color: green;
+}
+.break{
+	height: 4px;
+	width: 50px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+
+.ui.segment {
+    position: relative;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+    margin: 1rem 0;
+    padding: 1em 1em;
+    border-radius: .28571429rem;
+    border: 1px solid rgba(34,36,38,.15);
+	z-index: 0;
+}
+
+.ui.circular.segment {
+	position: relative;
+    display: table-cell;
+    padding: 0em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius:50%;
+	z-index: 1;
+	top: 60px;
+    left: 20px;
+	height: 100px;
+	width: 100px;
+}
+.ui.basic.green.inverted.segment{
+	margin-bottom: 0px;
+}
+
+.ui.secondary.menu .item:last-child{
+	background-color: #21BA45;
+}
+
+#resize_font{
+	font-size: 17px;
+}
+
+.navigation-div{
+	width:100%;
+}
+
+.nav{
+	position: fixed;
+    background: #f7f7f7;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgb(33, 186, 69);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0 auto;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
