@@ -65,11 +65,13 @@
 
 .nav{
 	position: fixed;
-    background: #f7f7f7;
-    width: 100%;
-    top: 0px;
-    z-index: 1000;
+	background:#ebf0f6;
+	width: 100%;
+	top:0px;
+	z-index: 1000;
+	height: 75px
 }
+
 
 #return-to-top {
     position: fixed;
