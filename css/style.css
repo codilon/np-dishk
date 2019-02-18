@@ -64,10 +64,15 @@ i.big.icon{
     line-height: 1;
     vertical-align: middle;
     font-size: 2em;
-    margin-top: 33px;
+}
+i.big.icon.center{
+	margin-top: 33px;
 }
 #space{
 	margin-top: 60px;
+}
+.ui.menu .item.donateButton{
+	color: white;
 }
 .ui.basic.green.inverted.segment{
 	margin-bottom: 0px;
@@ -79,6 +84,7 @@ i.big.icon{
 .ui[class*="very padded"].segment {
     padding: 2em;
 }
+
 #resize_font{
 	font-size: 17px;
 }
@@ -86,7 +92,6 @@ i.big.icon{
 .navigation-div{
 	width:100%;
 }
-
 .nav{
 	position: fixed;
 	background:#ebf0f6;
@@ -95,6 +100,7 @@ i.big.icon{
 	z-index: 1000;
 	height: 75px
 }
+
 
 
 #return-to-top {

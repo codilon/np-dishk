@@ -7,7 +7,8 @@
 		 crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
 		<link rel="stylesheet" href="css/jquery.bxslider.min.css">
-		<link rel="stylesheet" href="css/menustyle.css">
+<!--		<link rel="stylesheet" href="css/menustyle.css">-->
+		<link rel="stylesheet" href="css/responsivemenu.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="icon" href="logo/favicon.ico">
 
@@ -80,27 +81,27 @@
 							<a class="item" href="#mission">Mission</a>
 							<a class="item" href="#about_us">About us</a>
 							<a class="item" href="#support_us">Support us</a>
-							<a class="item">Donate</a>
+							<a class="item donateButton">Donate</a>
 						</div>
 					</div>
-					<div class="sixteen wide floated right middle aligned column mobile only tablet only">   <!--For MOBILE and TABLER-->
-						<div class="navigation_area">
-							<div class="navbar">
-								<div class="ui small image floated left">
-									<img src="logo/DigitalIshkul_logo.png">
-								</div>
-								<div class="toggle"><i class=" list ul icon"></i></div>
-								<div class="menu">
-									<ul class="active">
-										<li><a href="#our_service">Services</a></li>
-										<li><a href="#mission">Mission</a></li>
-										<li><a href="#about_us">About us</a></li>
-										<li><a href="#support_us">Support us</a></li>
-										<li><a href="#">Donate</a></li>
-									</ul>
-								</div>
+					<div class="sixteen wide middle aligned column mobile only tablet only">   <!--For MOBILE and TABLER-->
+						
+						<header>
+<!---->				
+							<div class="ui small image floated left">
+								<img src="logo/DigitalIshkul_logo.png">
 							</div>
-						</div>
+							<nav>
+								<ul>
+									<li><a href="#our_service">Services</a></li>
+									<li><a href="#mission">Mission</a></li>
+									<li><a href="#about_us">About us</a></li>
+									<li><a href="#support_us">Support us</a></li>
+									<li><a href="">Donate</a></li>
+								</ul>
+							</nav>
+							<div class="menu-toggle"><i class=" inverted green list ul big icon"></i></div>
+						</header>
 					</div>
 				</div>
 			</div>
@@ -225,8 +226,8 @@
 
 		<div class="ui container">      <!--Our Mission START-->
 			<div class="ui stackable grid row">
-				<div class="eight wide floated left  column">
-					<img class="ui middle aligned big image shape1" src="image/mission.jpg">
+				<div class="eight wide middle aligned floated left column">
+					<img class="ui big image centered" src="image/mission.jpg">
 				</div>
 				<div class="eight wide folated right middle aligned  column">
 					<p class="large" id="resize_font">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -320,8 +321,8 @@
 			<!--Support Us START-->
 		<div class="ui container">    
 			<div class="ui stackable grid row">
-				<div class="eight wide floated right column">
-					<img class="ui big image shape2" src="image/support.jpeg">
+				<div class="eight wide middle aligned floated right column">
+					<img class="ui big centered image" src="image/support.jpeg">
 				</div>
 				<div class="eight wide floated left column middle aligned">
 					<p class="large" id="resize_font">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -330,7 +331,7 @@
 							into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
 							Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
 							PageMaker including versions of Lorem Ipsum.</p>
-				</div>	
+				</div>
 			</div>
 		</div>
 			<!--Support Us END-->
@@ -348,71 +349,17 @@
 			<!--Divider END-->
 
 			<!--Quote start-->
-		<div class="ui container">             <!--For COMPUTER-->
+		<div class="ui container">           
 			<div class="ui grid row computer only tablet only">
-				<div class="sixteen wide column computer only">
+				
+				<div class="sixteen wide column computer only tablet only">
 					<div class="bxslider">
 						<div class="img">
-							<div class="ui grid row computer only">
-								<div class="eight wide column computer only">
+							<div class="ui grid row computer only tablet only">
+								<div class="sixteen wide column computer only tablet only">
 									<div class="ui very padded segment">
 										<div class="ui circular green inverted segment">
-											<i class="quote left big icon"></i>
-										</div>
-										<div class="ui basic segment">
-											<p class="quoteFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="eight wide column computer only">
-									<div class="ui very padded segment">
-										<div class="ui circular green inverted segment">
-											<i class="quote left big icon"></i>
-										</div>
-										<div class="ui basic segment">
-											<p class="quoteFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="img">
-							<div class="ui grid row computer only">
-								<div class="eight wide column computer only">
-									<div class="ui very padded segment">
-										<div class="ui circular green inverted segment">
-											<i class="quote left big icon"></i>
-										</div>
-										<div class="ui basic segment">
-											<p class="quoteFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="eight wide column computer only">
-									<div class="ui very padded segment">
-										<div class="ui circular green inverted segment">
-											<i class="quote left big icon"></i>
-										</div>
-										<div class="ui basic segment">
-											<p class="quoteFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="sixteen wide column tablet only">         <!--For TABLET-->
-					<div class="bxslider">
-						<div class="img">
-							<div class="ui grid row tablet only">
-								<div class="sixteen wide column tablet only">
-									<div class="ui very padded segment">
-										<div class="ui circular green inverted segment">
-											<i class="quote left big icon"></i>
+											<i class="quote left big icon center"></i>
 										</div>
 										<div class="ui basic segment">
 											<p class="quoteFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -422,11 +369,11 @@
 							</div>
 						</div>
 						<div class="img">
-							<div class="ui grid row tablet only">
-								<div class="sixteen wide column tablet only">
+							<div class="ui grid row computer only tablet only">
+								<div class="sixteen wide column computer only tablet only">
 									<div class="ui very padded segment">
 										<div class="ui circular green inverted segment">
-											<i class="quote left big icon"></i>
+											<i class="quote left big icon center"></i>
 										</div>
 										<div class="ui basic segment">
 											<p class="quoteFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -436,11 +383,11 @@
 							</div>
 						</div>
 						<div class="img">
-							<div class="ui grid row tablet only">
-								<div class="sixteen wide column tablet only">
+							<div class="ui grid row computer only tablet only">
+								<div class="sixteen wide column computer only tablet only">
 									<div class="ui very padded segment">
 										<div class="ui circular green inverted segment">
-											<i class="quote left big icon"></i>
+											<i class="quote left big icon center"></i>
 										</div>
 										<div class="ui basic segment">
 											<p class="quoteFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -450,11 +397,11 @@
 							</div>
 						</div>
 						<div class="img">
-							<div class="ui grid row tablet only">
-								<div class="sixteen wide column tablet only">
+							<div class="ui grid row computer only tablet only">
+								<div class="sixteen wide column computer only tablet only">
 									<div class="ui very padded segment">
 										<div class="ui circular green inverted segment">
-											<i class="quote left big icon"></i>
+											<i class="quote left big icon center"></i>
 										</div>
 										<div class="ui basic segment">
 											<p class="quoteFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -486,8 +433,9 @@
 
 		<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 		<script src="js/jquery-3.3.1.min.js"></script>
-		<script src="js/active.js"></script>
-
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!--		<script src="js/active.js"></script>-->
+		<script src="js/active1.js"></script>
 		<!--For Nivo START-->
 		<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 		<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
